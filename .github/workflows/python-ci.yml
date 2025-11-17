@@ -30,7 +30,7 @@ jobs:
       # and the --confidence-level and --severity-level ensure 
       # only medium-or-higher confidence/severity issues are reported.
       # If issues are found, this step will fail the build.
-      run: bandit -r . --confidence-level MEDIUM --severity-level MEDIUM
+      run: bandit -r . --confidence-level medium --severity-level medium
 
     # --- Unit Testing Step ---
     - name: Run Tests and Collect Coverage
