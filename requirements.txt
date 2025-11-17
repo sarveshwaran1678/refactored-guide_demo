@@ -1,9 +1,10 @@
-# Python Calculator App Requirements
-# No external dependencies needed for basic functionality
-# unittest is part of Python standard library
+# For Unit Testing and Coverage
+pytest
+pytest-cov
+coverage
 
-# Optional: for code coverage
-coverage==7.3.2
+# For Static Analysis/Linting
+pylint
 
-# Optional: for code quality
-pylint==3.0.2
+# For Static Application Security Testing (SAST)
+bandit
