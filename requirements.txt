@@ -1,0 +1,9 @@
+# Python Calculator App Requirements
+# No external dependencies needed for basic functionality
+# unittest is part of Python standard library
+
+# Optional: for code coverage
+coverage==7.3.2
+
+# Optional: for code quality
+pylint==3.0.2
